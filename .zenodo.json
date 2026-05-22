@@ -1,0 +1,21 @@
+{
+  "title": "Stage-resolved tracking benchmark public materials",
+  "description": "Public companion materials supporting the manuscript 'Stage-resolved bottlenecks from track finding to fitting in layered detectors'. This restricted public package includes aggregate result tables, sanitized Stage-II summaries, final PDF figure assets, documentation, and public-safe verification scripts. It does not redistribute the original benchmark generator, canonical SiHits_3D dataset, derived working copies, near-window data, per-track diagnostic exports, or trained model weights because permission for public redistribution has not yet been confirmed.",
+  "creators": [
+    {"name": "Yu, Ziyang"},
+    {"name": "Wang, Aoran"},
+    {"name": "Lu, Yitong"},
+    {"name": "Wang, Maolin"},
+    {"name": "Li, Cunyan"}
+  ],
+  "keywords": [
+    "particle tracking",
+    "track finding",
+    "track fitting",
+    "graph neural network",
+    "Kalman filter"
+  ],
+  "upload_type": "dataset",
+  "license": "cc-by-4.0",
+  "access_right": "open"
+}

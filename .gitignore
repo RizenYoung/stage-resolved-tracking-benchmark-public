@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Restricted materials must not be added to this public package.
+data/
+generator/
+model_weights/
+*.pth
+*.pt
+*.ckpt
+*SiHits_3D*
+RungeKuttaEventsVtx*

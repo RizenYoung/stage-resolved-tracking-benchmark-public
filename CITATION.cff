@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "Stage-resolved tracking benchmark public materials"
+message: "If you use this public companion package, please cite the associated manuscript and archived release."
+type: dataset
+authors:
+  - family-names: Yu
+    given-names: Ziyang
+  - family-names: Wang
+    given-names: Aoran
+  - family-names: Lu
+    given-names: Yitong
+  - family-names: Wang
+    given-names: Maolin
+  - family-names: Li
+    given-names: Cunyan
+repository-code: "https://github.com/RizenYoung/stage-resolved-tracking-benchmark-public"
+abstract: "Public companion materials for a stage-resolved finding-to-fitting manuscript, including aggregate result tables, final PDF figure assets, documentation, and public-safe verification scripts. Restricted benchmark generator/data files and model weights are not redistributed."
+keywords:
+  - particle tracking
+  - track finding
+  - track fitting
+  - graph neural network
+  - Kalman filter
+license: "CC-BY-4.0"
+preferred-citation:
+  type: article
+  title: "Stage-resolved bottlenecks from track finding to fitting in layered detectors"
+  authors:
+    - family-names: Yu
+      given-names: Ziyang
+    - family-names: Wang
+      given-names: Aoran
+    - family-names: Lu
+      given-names: Yitong
+    - family-names: Wang
+      given-names: Maolin
+    - family-names: Li
+      given-names: Cunyan
+  year: 2026
