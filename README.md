@@ -1,8 +1,14 @@
 # Stage-Resolved Tracking Benchmark Public Materials
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20340321.svg)](https://doi.org/10.5281/zenodo.20340321)
+
 This repository contains a restricted public companion package for the manuscript:
 
 Stage-resolved bottlenecks from track finding to fitting in layered detectors
+
+Archived release DOI: https://doi.org/10.5281/zenodo.20340321
+
+Concept DOI for all versions: https://doi.org/10.5281/zenodo.20340320
 
 ## Scope
 
@@ -71,7 +77,7 @@ Data and code supporting this work are available from the authors upon reasonabl
 
 If referring specifically to this public package, use wording such as:
 
-Aggregate result tables, figure assets, and public documentation are available in the public companion repository. The original benchmark generator, canonical SiHits_3D dataset, derived working copies, and model weights are not publicly redistributed because permission for public redistribution has not yet been confirmed.
+Aggregate result tables, figure assets, and public documentation are available in the public companion repository at https://doi.org/10.5281/zenodo.20340321. The original benchmark generator, canonical SiHits_3D dataset, derived working copies, per-track diagnostic exports, and model weights are not publicly redistributed because permission for public redistribution has not yet been confirmed.
 
 ## License
 
