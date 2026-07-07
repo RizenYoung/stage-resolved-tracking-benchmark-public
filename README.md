@@ -1,14 +1,16 @@
 # Stage-Resolved Tracking Benchmark Public Materials
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20340321.svg)](https://doi.org/10.5281/zenodo.20340321)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20340320.svg)](https://doi.org/10.5281/zenodo.20340320)
 
 This repository contains the public companion package for the manuscript:
 
 Stage-resolved bottlenecks from track finding to fitting in layered detectors
 
-Archived release DOI: https://doi.org/10.5281/zenodo.20340321
+Current revised release: v0.1.3, archived at https://doi.org/10.5281/zenodo.21232884
 
 Concept DOI for all versions: https://doi.org/10.5281/zenodo.20340320
+
+GitHub release: https://github.com/RizenYoung/stage-resolved-tracking-benchmark-public/releases/tag/v0.1.3
 
 ## Scope
 
@@ -79,7 +81,7 @@ This check verifies that the public package does not contain the restricted gene
 
 For the revised manuscript, use:
 
-A public companion package for this manuscript is archived on Zenodo (DOI: 10.5281/zenodo.20340321) and mirrored in the GitHub repository `stage-resolved-tracking-benchmark-public`. It contains final PDF figures, aggregate result tables, sanitized Stage-II summaries, documentation, and public-safe verification scripts. The revised public package also includes the calibration-audit summaries and supporting figures used to trace the revised Stage-II audit claims. The original benchmark generator, the canonical SiHits_3D dataset, derived working copies, near-window data, per-track diagnostic exports, and trained model weights are not publicly redistributed because permission for public redistribution has not been confirmed. Data and code supporting the full internal analyses are available from the authors upon reasonable request, subject to applicable permission constraints.
+A revised public companion package for this manuscript is archived on Zenodo as release v0.1.3 (DOI: 10.5281/zenodo.21232884; concept DOI for all versions: 10.5281/zenodo.20340320) and mirrored in the GitHub repository `stage-resolved-tracking-benchmark-public` at release v0.1.3. It contains final figure assets, aggregate result tables, sanitized Stage-II summaries, documentation, public-safe verification scripts, and the calibration-audit summaries and supporting figures used to trace the revised Stage-II audit claims. The original benchmark generator, the canonical SiHits_3D dataset, derived working copies, near-window data, per-track diagnostic exports, and trained model weights are not publicly redistributed because permission for public redistribution has not been confirmed. Data and code supporting the full internal analyses are available from the authors upon reasonable request, subject to applicable permission constraints.
 
 ## License
 
