@@ -5,9 +5,9 @@ This package accompanies the manuscript *Stage-resolved bottlenecks from track f
 Zenodo concept DOI: https://doi.org/10.5281/zenodo.20340320  
 GitHub repository: https://github.com/RizenYoung/stage-resolved-tracking-benchmark-public
 
-## Current Release
+## Current Package
 
-Release v0.1.4 contains the current manuscript support package. Its complete contents are provided in `releases/v0.1.4/`. The root-level v0.1.3 materials are retained for version traceability.
+The current manuscript support package is provided in `releases/v0.1.4/`. The root-level v0.1.3 materials are retained for version traceability.
 
 ## Contents
 

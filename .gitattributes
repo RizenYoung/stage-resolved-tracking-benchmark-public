@@ -1,0 +1,2 @@
+# Preserve the published support package without text line-ending conversion.
+releases/v0.1.4/** -text

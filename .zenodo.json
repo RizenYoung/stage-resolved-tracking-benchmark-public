@@ -1,6 +1,6 @@
 {
   "title": "Stage-resolved tracking benchmark public materials",
-  "description": "Public companion materials supporting the manuscript 'Stage-resolved bottlenecks from track finding to fitting in layered detectors'. The current v0.1.4 manuscript support package is provided in releases/v0.1.4/ and includes aggregate result tables, Stage-II summaries, final figure assets, documentation, package-validation utilities, and supporting calibration results. The original benchmark generator, canonical SiHits_3D dataset, source-level event and track data, and trained model weights are not distributed because permission for public redistribution has not been confirmed.",
+  "description": "Public companion materials supporting the manuscript 'Stage-resolved bottlenecks from track finding to fitting in layered detectors'. The current manuscript support package is provided in releases/v0.1.4/ and includes aggregate result tables, Stage-II summaries, final figure assets, documentation, package-validation utilities, and supporting calibration results. The original benchmark generator, canonical SiHits_3D dataset, source-level event and track data, and trained model weights are not distributed because permission for public redistribution has not been confirmed.",
   "creators": [
     {"name": "Yu, Ziyang"},
     {"name": "Wang, Aoran"},
