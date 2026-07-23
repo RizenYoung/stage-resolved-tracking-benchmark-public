@@ -2,8 +2,8 @@ cff-version: 1.2.0
 title: "Stage-resolved tracking benchmark public materials"
 message: "If you use this public companion package, please cite the associated manuscript and archived release."
 type: dataset
-doi: 10.5281/zenodo.20340321
-date-released: 2026-05-22
+doi: 10.5281/zenodo.20340320
+date-released: 2026-07-17
 authors:
   - family-names: Yu
     given-names: Ziyang
@@ -16,8 +16,8 @@ authors:
   - family-names: Li
     given-names: Cunyan
 repository-code: "https://github.com/RizenYoung/stage-resolved-tracking-benchmark-public"
-url: "https://doi.org/10.5281/zenodo.20340321"
-abstract: "Public companion materials for a stage-resolved finding-to-fitting manuscript, including aggregate result tables, final PDF figure assets, documentation, and public-safe verification scripts. Restricted benchmark generator/data files and model weights are not redistributed."
+url: "https://doi.org/10.5281/zenodo.20340320"
+abstract: "Public companion materials for a stage-resolved finding-to-fitting manuscript, including aggregate result tables, final figure assets, documentation, and package-validation utilities. The source generator, benchmark dataset, and model weights are not distributed."
 keywords:
   - particle tracking
   - track finding

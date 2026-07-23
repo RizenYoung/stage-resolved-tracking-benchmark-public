@@ -1,0 +1,7 @@
+txy,theta_deg,cos_theta,kappa_F,log10_kappa_F,omega_dz_deg,linearization_error_pct,source,zone
+4.0,75.96375653207353,0.2425356250363329,124.37374429292376,2.094728709034931,19.31383507272717,16.881180267362783,extreme_regime_root_cause_analysis.csv;extreme_ablation_F_condition_numbers.csv,safe
+6.0,80.53767779197439,0.1643989873053573,620.8087595408249,2.792957836138994,28.493442313679537,24.95118943456904,extreme_regime_root_cause_analysis.csv;extreme_ablation_F_condition_numbers.csv,safe_to_marginal
+8.0,82.8749836510982,0.1240347345892084,1956.886562587118,3.2915656510691718,37.765978028061866,33.158211097948495,extreme_regime_root_cause_analysis.csv;extreme_ablation_F_condition_numbers.csv,marginal
+10.0,84.28940686250037,0.0995037190209989,4773.539535163195,3.678840523807199,47.07656263806557,41.47423703657752,extreme_regime_root_cause_analysis.csv;extreme_ablation_F_condition_numbers.csv,marginal_to_invalid
+15.0,86.18592516570965,0.0665190105237739,24149.12464291364,4.382901393073357,70.4203659123637,62.79624948546095,extreme_regime_root_cause_analysis.csv;extreme_ablation_F_condition_numbers.csv,invalid
+20.0,87.13759477388825,0.0499376169438922,76296.80226307949,4.882506336269409,93.80289545004928,85.1379246409077,extreme_regime_root_cause_analysis.csv;extreme_ablation_F_condition_numbers.csv,invalid

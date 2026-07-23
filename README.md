@@ -1,67 +1,46 @@
-# Stage-Resolved Tracking Benchmark Public Materials
+# Stage-Resolved Tracking Benchmark: Public Companion Materials
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20340320.svg)](https://doi.org/10.5281/zenodo.20340320)
+This package accompanies the manuscript *Stage-resolved bottlenecks from track finding to fitting in layered detectors*.
 
-This repository contains the public companion package for the manuscript:
+Zenodo concept DOI: https://doi.org/10.5281/zenodo.20340320  
+GitHub repository: https://github.com/RizenYoung/stage-resolved-tracking-benchmark-public
 
-Stage-resolved bottlenecks from track finding to fitting in layered detectors
+## Current Release
 
-Current revised release: v0.1.3, archived at https://doi.org/10.5281/zenodo.21232884
+Release v0.1.4 contains the current manuscript support package. Its complete contents are provided in `releases/v0.1.4/`. The root-level v0.1.3 materials are retained for version traceability.
 
-Concept DOI for all versions: https://doi.org/10.5281/zenodo.20340320
+## Contents
 
-GitHub release: https://github.com/RizenYoung/stage-resolved-tracking-benchmark-public/releases/tag/v0.1.3
+- Final manuscript figure assets in PDF and PNG formats.
+- Aggregate result tables for fit readiness and Stage-II analyses.
+- Supporting calibration tables and five calibration figures.
+- Documentation, citation metadata, licenses, and a package-validation script.
 
 ## Scope
 
-This is not the full internal reproducibility package. It is a public-safe package prepared for manuscript review and open documentation while permission for redistributing the original benchmark generator and dataset remains unconfirmed.
+The package supports inspection of the reported aggregate results, figure assets, and supporting calibration summaries. The original benchmark generator, the canonical `SiHits_3D` dataset, source-level event and track data, and trained model weights are not included because permission for their public redistribution has not been confirmed.
 
-Included materials:
-
-- Final manuscript figure assets in PDF and PNG format.
-- Frozen aggregate result tables used to document the reported stage-level anchors.
-- Sanitized Stage-II summary tables with restricted source identifiers removed.
-- Calibration-audit summary tables and supporting figures added for the revised Stage-II claims.
-- Lightweight scripts for listing files and checking the public package.
-- Documentation describing what is included, what is excluded, and how to interpret the release.
-
-Excluded materials:
-
-- The original Runge-Kutta generator notebook.
-- Any cleaned or converted generator code derived from the original notebook.
-- The canonical SiHits_3D dataset.
-- Headerless Stage-I working copies derived from the canonical dataset.
-- Stage-II near-window data files derived from the canonical dataset.
-- Per-track or per-event diagnostic tables derived from restricted data.
-- Trained model-weight files.
-- Internal project plans, review prompts, working notes, draft manuscripts, private paths, and exploratory outputs.
-
-The excluded generator and data materials were provided to the project by the project supervisor. They are not redistributed in this public package because explicit permission for public redistribution has not yet been confirmed.
-
-## Directory Layout
+## Layout
 
 ```text
 figures/
-  final_manuscript_pdf/      Final figure assets used in the manuscript.
-  R2_stats/                  Supporting figures for the Stage-II handoff audit.
-  R7_stats/                  Five supporting figure sets for the calibration audit.
+  final_manuscript_pdf/      Figure assets used in the manuscript.
+  stage2_support/            Supporting Stage-II figures.
+  calibration_support/       Five calibration-support figures.
 results/
-  fit_readiness/             Aggregate fit-readiness summary tables.
-  stage2/                    Aggregate Stage-II summary and diagnostic tables.
-  R2_stats/                  Public-safe aggregate R2 audit tables.
-  R7_stats/                  Public-safe aggregate R7 calibration-audit tables.
+  fit_readiness/             Aggregate fit-readiness tables.
+  stage2/                    Aggregate Stage-II tables.
+  stage2_support/            Supporting Stage-II tables.
+  calibration_support/       Calibration-support tables.
 scripts/
-  check_public_package.py    Public-safe verification script.
-  list_release_files.py      Utility for listing release contents.
+  check_public_package.py    Package validation utility.
 docs/
-  public_release_policy.md   Data and redistribution policy for this package.
-  revision_support_inventory_2026-07-06.md
-  checksums_sha256.txt       SHA256 checksums for included files.
-LICENSE                      MIT License for code.
-LICENSE-DATA                 CC BY 4.0 for included documentation, result tables, and figures.
+  data_access_note.md        Scope and redistribution note.
+  supplementary_materials_guide.md
+  checksums_sha256.txt       SHA-256 checksums for included files.
 ```
 
-## Quick Check
+## Verification
 
 Run:
 
@@ -69,20 +48,12 @@ Run:
 python scripts/check_public_package.py
 ```
 
-Expected final line:
+The expected final line is `status: ok`.
 
-```text
-status: ok
-```
+## Data Availability Statement
 
-This check verifies that the public package does not contain the restricted generator, canonical dataset, derived working copies, per-track diagnostic exports, trained model weights, private paths, or submission-process notes.
-
-## Data Availability Language
-
-For the revised manuscript, use:
-
-A revised public companion package for this manuscript is archived on Zenodo as release v0.1.3 (DOI: 10.5281/zenodo.21232884; concept DOI for all versions: 10.5281/zenodo.20340320) and mirrored in the GitHub repository `stage-resolved-tracking-benchmark-public` at release v0.1.3. It contains final figure assets, aggregate result tables, sanitized Stage-II summaries, documentation, public-safe verification scripts, and the calibration-audit summaries and supporting figures used to trace the revised Stage-II audit claims. The original benchmark generator, the canonical SiHits_3D dataset, derived working copies, near-window data, per-track diagnostic exports, and trained model weights are not publicly redistributed because permission for public redistribution has not been confirmed. Data and code supporting the full internal analyses are available from the authors upon reasonable request, subject to applicable permission constraints.
+Figure assets, aggregate result tables, documentation, and supporting calibration summaries are available in the public companion package archived on Zenodo (concept DOI: 10.5281/zenodo.20340320) and mirrored in the GitHub repository `stage-resolved-tracking-benchmark-public`. The original benchmark generator, the canonical `SiHits_3D` dataset, and related source-level materials are not redistributed because permission for public redistribution has not been confirmed. Additional materials may be available from the corresponding author upon reasonable request, subject to applicable permission constraints.
 
 ## License
 
-Code in this package is released under the MIT License. Included result tables, figure assets, and documentation are released under Creative Commons Attribution 4.0 International (CC BY 4.0), subject to the exclusions described above.
+Code is released under the MIT License. Included result tables, figure assets, and documentation are released under CC BY 4.0.

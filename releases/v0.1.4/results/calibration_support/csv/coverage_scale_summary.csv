@@ -1,0 +1,5 @@
+sample_label,method,n,pull_width_std_ddof1,kappa_opt_empirical_cov_0p5,central_50_half_width_at_kappa_opt,empirical_coverage_at_kappa_1p0,delta_kappa_opt_vs_reference_0p80_for_replacement,monotone_coverage_over_grid
+all_tracks,baseline,1490,1.000471189643,1.092934782609,0.737173308502,0.461744966443,,True
+all_tracks,replacement,1490,0.802154129946,0.677142857142,0.456725916561,0.640268456376,-0.153571428572,True
+near_window_truth_txy_ge4,baseline,359,0.73888901153,0.5,0.337244875098,0.743732590529,,True
+near_window_truth_txy_ge4,replacement,359,0.650739194205,0.5,0.337244875098,0.724233983287,-0.375,True
